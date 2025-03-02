@@ -1,4 +1,5 @@
-# The Rover
+# RoboRetriever
+## The Rover
 
 <img
     src="./static/images/assembled_kits/the_rover.jpg"
