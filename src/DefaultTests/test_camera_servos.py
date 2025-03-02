@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from rover.servo import Servo
 from rover import constants
 import time
@@ -24,3 +28,5 @@ if __name__ == '__main__':
     for i in [90, 135, 180, 135, 90, 45, 0, 45, 90]:
         tilt_servo.set_angle(i)
         time.sleep(1)
+
+    exit()

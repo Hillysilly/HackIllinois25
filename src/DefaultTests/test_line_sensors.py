@@ -15,5 +15,4 @@ if __name__ == '__main__':
     signal.signal(signal.SIGINT, signal_handler)
 
     while True:
-        print(infrared_array.read())
         time.sleep(1)
